@@ -8,9 +8,9 @@ this project has been made using ReactJS just to practice ReactJS and it wold be
 
 ## Resouces :
 
-here are the resources i have shared :
+Here are the resources i have shared :
 
-[Video_of_EddieJaoude](https://www.youtube.com/watch?v=Jorl_vcp-Ew&list=LL&index=1&ab_channel=EddieJaoude).
+[Video of EddieJaoude](https://www.youtube.com/watch?v=Jorl_vcp-Ew&list=LL&index=1&ab_channel=EddieJaoude).
 
 ## Available Scripts
 
