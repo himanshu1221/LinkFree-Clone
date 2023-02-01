@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Linkfree Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a clone of [LinkFree](https://linkfree.eddiehub.io).
+
+# About this project
+
+this project has been made using ReactJS just to practice ReactJS and it wold be an open source project where anyone can contribute in it 
+
+## Resouces :
+
+here are the resources i have shared :
+
+[Video_of_EddieJaoude](https://www.youtube.com/watch?v=Jorl_vcp-Ew&list=LL&index=1&ab_channel=EddieJaoude).
 
 ## Available Scripts
 
