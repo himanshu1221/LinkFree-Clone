@@ -11,6 +11,7 @@ function App() {
       <Avatar className="p-overlay-badge" shape="circle" style={{ backgroundColor: '#9c27b0', color: '#ffffff' }} icon="pi pi-user" size="xlarge" image="himanshu.jpg">
         <Badge value="4" />
       </Avatar>
+      <p>Web Developer</p>
     </div>
   );
 }

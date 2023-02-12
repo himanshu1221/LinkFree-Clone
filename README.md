@@ -4,7 +4,7 @@ This project is a clone of [LinkFree](https://linkfree.eddiehub.io).
 
 # About this project
 
-This project has been made using ReactJS just to practice ReactJS and it would be an open source project where anyone can contribute in it and can give thier inputs by raising an issue and this would be a complete beginner friendly repo where all valueable contribution are accepted  !
+This project has been made using ReactJS just to practice ReactJS and it would be an open source project where anyone can contribute in it and can give thier inputs by raising an issue and this would be a complete beginner friendly repo where all valueable contribution are accepted !
 
 ## Resources :
 
@@ -13,6 +13,7 @@ Here are the resources :
 - [Video of EddieJaoude](https://www.youtube.com/watch?v=Jorl_vcp-Ew&list=LL&index=1&ab_channel=EddieJaoude).
 - [Prime React](https://primereact.org/installation/)
 - [React Transition Group](https://www.npmjs.com/package/react-transition-group)
+- [Prime Flex](https://www.primefaces.org/primeflex/)
 
 ## Available Scripts
 
