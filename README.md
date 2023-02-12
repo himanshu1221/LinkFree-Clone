@@ -2,7 +2,11 @@
 
 This project is a clone of [LinkFree](https://linkfree.eddiehub.io).
 
-# About this project
+### Code Of Conduct 
+
+[Code Of Conduct](https://github.com/himanshu1221/linkfree_clone/blob/master/CODE_OF_CONDUCT.md)
+
+## About this project
 
 This project has been made using ReactJS just to practice ReactJS and it would be an open source project where anyone can contribute in it and can give thier inputs by raising an issue and this would be a complete beginner friendly repo where all valueable contribution are accepted !
 
