@@ -8,7 +8,7 @@ import { Badge } from 'primereact/badge';
 function App() {
   return (
     <div>
-      <Avatar className="p-overlay-badge" shape="circle" style={{ backgroundColor: '#9c27b0', color: '#ffffff' }} icon="pi pi-user" size="xlarge">
+      <Avatar className="p-overlay-badge" shape="circle" style={{ backgroundColor: '#9c27b0', color: '#ffffff' }} icon="pi pi-user" size="xlarge" image="himanshu.jpg">
         <Badge value="4" />
       </Avatar>
     </div>

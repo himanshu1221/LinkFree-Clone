@@ -4,9 +4,9 @@ This project is a clone of [LinkFree](https://linkfree.eddiehub.io).
 
 # About this project
 
-this project has been made using ReactJS just to practice ReactJS and it would be an open source project where anyone can contribute in it !
+This project has been made using ReactJS just to practice ReactJS and it would be an open source project where anyone can contribute in it and can give thier inputs by raising an issue and this would be a complete beginner friendly repo where all valueable contribution are accepted  !
 
-## Resouces :
+## Resources :
 
 Here are the resources :
 
