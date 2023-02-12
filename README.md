@@ -2,7 +2,7 @@
 
 This project is a clone of [LinkFree](https://linkfree.eddiehub.io).
 
-### Code Of Conduct 
+## Code Of Conduct 
 
 [Code Of Conduct](https://github.com/himanshu1221/linkfree_clone/blob/master/CODE_OF_CONDUCT.md)
 
