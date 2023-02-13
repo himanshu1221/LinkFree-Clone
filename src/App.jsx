@@ -7,9 +7,9 @@ import 'primeflex/primeflex.css';
 
 function App() {
   return (
-    <div>
+    <div className="m-4">
       <div className="flex justify-content-center align-item-center">
-        <Avatar className="p-overlay-badge" shape="circle" style={{ backgroundColor: '#9c27b0', color: '#ffffff' }} icon="pi pi-user" size="xlarge" image="himanshu.jpg">
+        <Avatar className="p-overlay-badge" shape="circle" size="xlarge" image="himanshu.jpg">
           <Badge value="4" />
         </Avatar>
       </div>
