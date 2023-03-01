@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="m-4">
       <Profile name={profile.name} bio={profile.bio} avatar={profile.avatar}/>
-      <Links/>
+      <Links links={profile.links} icon = {profile.icon}/>
     </div>
   );
 }
