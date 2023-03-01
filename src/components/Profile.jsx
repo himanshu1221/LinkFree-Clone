@@ -2,7 +2,7 @@ import React from "react";
 import { Avatar } from "primereact/avatar";
 import { Badge } from "primereact/badge";
 
-function Profile() {
+function Profile({name , bio , avatar}) {
   return (
     <>
       <div className="flex justify-content-center align-item-center">
@@ -10,13 +10,14 @@ function Profile() {
           className="p-overlay-badge"
           shape="circle"
           size="xlarge"
-          image="himanshu.jpg"
+          image={avatar}
         >
           <Badge value="4" />
         </Avatar>
+        <h1 className="ml-4">{name}</h1>
       </div>
       <div className="flex justify-content-center align-item-center">
-        <p>Web Developer</p>
+        <p>{bio}</p>
       </div>
     </>
   );

@@ -1,0 +1,32 @@
+{
+    "name": "Himanshu Chhatwal",
+    "bio": "Open source Contributor | Blogger | Content Writer ",
+    "avatar": "https://github.com/himanshu1221.png",
+    "links": [
+      {
+        "name": "My PortFolio",
+        "url": "https://himanshuchhatwal.netlify.app/",
+        "icon": "FaLink"
+      },
+      {
+        "name": "Follow me on GitHub",
+        "url": "https://github.com/himanshu1221",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "Twitter: Threads and Random Talks",
+        "url": "https://twitter.com/himanshu1221",
+        "icon": "FaTwitter"
+      },
+      {
+        "name": "Interested in reading my blogs? Go here!",
+        "url": "https://blogsbyhimanshu.hashnode.dev/",
+        "icon": "SiHashnode"
+      },
+      {
+        "name": "Follow me on LinkedIn",
+        "url": "https://www.linkedin.com/in/himanshu-c-537527215/",
+        "icon": "FaLinkedin"
+      }
+    ]
+}
