@@ -23,7 +23,7 @@ function App() {
     <>
     <Navbar/>
     <div className="m-4">
-      <Profile name={profile.name} bio={profile.bio} avatar={profile.avatar}/>
+      <Profile name={profile.name} bio={profile.bio} avatar={profile.avatar} total = {profile.links.length}/>
       <Links links={profile.links} icon = {profile.icon}/>
     </div>
     </>

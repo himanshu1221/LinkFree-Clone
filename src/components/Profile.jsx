@@ -2,7 +2,7 @@ import React from "react";
 import { Avatar } from "primereact/avatar";
 import { Badge } from "primereact/badge";
 
-function Profile({name , bio , avatar}) {
+function Profile({name , bio , avatar,total}) {
   return (
     <>
       <div className="flex justify-content-center align-item-center">
@@ -12,9 +12,9 @@ function Profile({name , bio , avatar}) {
           size="xlarge"
           image={avatar}
         >
-          <Badge value="4" />
+          <Badge value={total} />
         </Avatar>
-        <h1 className="ml-4">{name}</h1>
+        <h1 className="ml-5 mt-3">{name}</h1>
       </div>
       <div className="flex justify-content-center align-item-center">
         <p>{bio}</p>
