@@ -29,7 +29,7 @@ In the project directory, you can run:
 Open terminal \
 write the above command \
 Install all the dependencies \
-then follow the further instruction\
+then follow the further instruction
 
 ### `npm start`
 
