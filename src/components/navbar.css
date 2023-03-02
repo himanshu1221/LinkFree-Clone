@@ -1,0 +1,14 @@
+.parent_nav{
+    margin-top: 0px;
+    padding: 15px;
+}
+
+li{
+    margin: 0px 0px 0px 16px;
+    padding: 8px 12px ;
+    color: white;
+}
+
+.navbar li:hover{
+    cursor: pointer;
+}

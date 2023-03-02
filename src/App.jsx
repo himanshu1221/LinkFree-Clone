@@ -5,12 +5,13 @@ import "primeflex/primeflex.css";
 import Profile from "./components/Profile";
 import { useEffect, useState } from "react";
 import Links from "./components/Links";
+import { Navbar } from "./components/Navbar";
 
 function App() {
   const [profile,setProfile] = useState({
     name:"404",
-    bio:"-",
-    avtar:"https://github.com/himanshu1221.png",
+    bio:"------",
+    avatar:"https://github.com/himanshu1221.png",
     links : [],
   });
   useEffect(()=>{
@@ -19,10 +20,13 @@ function App() {
     .then((data)=>setProfile(data));
   },[]);
   return (
+    <>
+    <Navbar/>
     <div className="m-4">
       <Profile name={profile.name} bio={profile.bio} avatar={profile.avatar}/>
       <Links links={profile.links} icon = {profile.icon}/>
     </div>
+    </>
   );
 }
 
