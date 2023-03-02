@@ -2,7 +2,7 @@ import React from "react";
 import { Avatar } from "primereact/avatar";
 import { Badge } from "primereact/badge";
 
-function Profile({name , bio , avatar}) {
+function Profile({ name, bio, avatar }) {
   return (
     <>
       <div className="flex justify-content-center align-item-center">

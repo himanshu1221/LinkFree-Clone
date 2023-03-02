@@ -7,21 +7,21 @@ import { useEffect, useState } from "react";
 import Links from "./components/Links";
 
 function App() {
-  const [profile,setProfile] = useState({
-    name:"404",
-    bio:"-",
-    avtar:"https://github.com/himanshu1221.png",
-    links : [],
+  const [profile, setProfile] = useState({
+    name: "404",
+    bio: "-",
+    avtar: "https://github.com/himanshu1221.png",
+    links: [],
   });
-  useEffect(()=>{
+  useEffect(() => {
     fetch("/data/himanshu1221.json")
-    .then((response)=>response.json())
-    .then((data)=>setProfile(data));
-  },[]);
+      .then((response) => response.json())
+      .then((data) => setProfile(data));
+  }, []);
   return (
     <div className="m-4">
-      <Profile name={profile.name} bio={profile.bio} avatar={profile.avatar}/>
-      <Links links={profile.links} icon = {profile.icon}/>
+      <Profile name={profile.name} bio={profile.bio} avatar={profile.avatar} />
+      <Links links={profile.links} icon={profile.icon} />
     </div>
   );
 }
