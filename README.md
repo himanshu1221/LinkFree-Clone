@@ -26,11 +26,10 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Open terminal 
-write the above command 
-Install all the dependencies 
-then follow the further instruction
-
+Open terminal \
+write the above command \
+Install all the dependencies \
+then follow the further instruction\
 
 ### `npm start`
 
