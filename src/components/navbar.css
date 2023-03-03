@@ -1,14 +1,22 @@
 .parent_nav{
-    margin-top: 0px;
-    padding: 15px;
+    margin-top: 0px; 
+    position: relative;
+    display: flex;
+    align-items: baseline;
 }
 
 li{
-    margin: 0px 0px 0px 16px;
+    margin: 10px 25px 10px 0px;
     padding: 8px 12px ;
-    color: white;
+    color: gray;
+}
+.parent_nav a{
+    text-decoration: none;
 }
 
-.navbar li:hover{
+.parent_nav li:hover{
     cursor: pointer;
+    border: solid gray;
+    border-radius: 5px;
+    color: white;
 }
