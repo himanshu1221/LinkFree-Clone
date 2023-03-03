@@ -1,14 +1,19 @@
+![feature](https://user-images.githubusercontent.com/32031706/222640620-7655ef83-d420-470d-acbc-51a8d4d7cd18.png)
+
 # Linkfree Clone
 
-This project is a clone of [LinkFree](https://linkfree.eddiehub.io).
+This project is a clone of [LinkFree](https://linkfree.eddiehub.io)
+
+Here is the deployed link [Linkfree_Clone](linkfree-clone.vercel.app)
 
 ## Code Of Conduct 
+Please go thru this code of conduct before contributing
 
 [Code Of Conduct](https://github.com/himanshu1221/linkfree_clone/blob/master/CODE_OF_CONDUCT.md)
 
 ## About this project
 
-This project has been made using ReactJS just to practice ReactJS and it would be an open source project where anyone can contribute in it and can give thier inputs by raising an issue and this would be a complete beginner friendly repo where all valueable contribution are accepted !
+This project has been made using ReactJS just to practice ReactJS and it would be an open source project where anyone can contribute in it and can give thier inputs by raising an issue and this would be a complete beginner friendly repo where all valueable contribution are accepted!
 
 ## Resources :
 
