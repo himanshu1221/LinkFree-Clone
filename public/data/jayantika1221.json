@@ -1,0 +1,22 @@
+{
+    "name": "Jayantika Mehrotra",
+    "bio": "Learner",
+    "avatar": "https://media.licdn.com/dms/image/C4D03AQHCK2ynxl-DJA/profile-displayphoto-shrink_200_200/0/1646229303718?e=1683158400&v=beta&t=MjuIskdUk1zXcf5yLevSpQDAN_BNnkyf5wmlgpe62a8",
+    "links": [
+      {
+        "name": "Follow me on GitHub",
+        "url": "https://github.com/jayantika1221",
+        "icon": "github"
+      },
+      {
+        "name": "Twitter: Threads and Random Talks",
+        "url": "https://twitter.com/Jayantika02",
+        "icon": "twitter"
+      },
+      {
+        "name": "Follow me on LinkedIn",
+        "url": "https://www.linkedin.com/in/jayantika-mehrotra-74948b1a4/",
+        "icon": "linkedin"
+      }
+    ]
+}
