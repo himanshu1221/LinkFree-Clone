@@ -14,7 +14,8 @@ const Main = () => {
   const [profile, setProfile] = useState({
     name: "404",
     bio: "Profile Not found",
-    avatar: "https://img.freepik.com/free-vector/glitch-error-404-page_23-2148105404.jpg",
+    avatar:
+      "https://img.freepik.com/free-vector/glitch-error-404-page_23-2148105404.jpg",
     links: [],
   });
   useEffect(() => {
