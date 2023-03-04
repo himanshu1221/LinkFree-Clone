@@ -4,7 +4,8 @@ function Links({links}) {
   const colors = {
     twitter:" #00acee",
     linkedin : "white",
-    github: "black"
+    github: "black",
+    youtube: "red"
   };
   return (
     <div>
