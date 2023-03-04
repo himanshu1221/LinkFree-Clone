@@ -16,7 +16,5 @@ li{
 
 .parent_nav li:hover{
     cursor: pointer;
-    border: solid gray;
-    border-radius: 5px;
     color: white;
 }
