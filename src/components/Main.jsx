@@ -13,8 +13,8 @@ const Main = () => {
   const { username } = useParams();
   const [profile, setProfile] = useState({
     name: "404",
-    bio: "------",
-    avatar: "https://github.com/himanshu1221.png",
+    bio: "Profile Not found",
+    avatar: "https://img.freepik.com/free-vector/glitch-error-404-page_23-2148105404.jpg",
     links: [],
   });
   useEffect(() => {
