@@ -11,6 +11,11 @@ Please go thru this code of conduct before contributing
 
 [Code Of Conduct](https://github.com/himanshu1221/linkfree_clone/blob/master/CODE_OF_CONDUCT.md)
 
+## Working Video
+This website is still under process but here is the quick tutorial of how u can check your profile 
+
+https://user-images.githubusercontent.com/32031706/222883641-e48d7815-90db-433b-8dc1-8a0a3bba95fc.mp4
+
 ## About this project
 
 This project has been made using ReactJS just to practice ReactJS and it would be an open source project where anyone can contribute in it and can give thier inputs by raising an issue and this would be a complete beginner friendly repo where all valueable contribution are accepted!
