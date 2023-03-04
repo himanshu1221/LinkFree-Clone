@@ -4,7 +4,7 @@
 
 This project is a clone of [LinkFree](https://linkfree.eddiehub.io)
 
-Here is the deployed link [Linkfree_Clone](linkfree-clone.vercel.app)
+Here is the deployed link [Linkfree_Clone](https://linkfree-clone.vercel.app/)
 
 ## Code Of Conduct 
 Please go thru this code of conduct before contributing
