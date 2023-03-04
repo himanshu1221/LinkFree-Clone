@@ -11,6 +11,12 @@ Please go thru this code of conduct before contributing
 
 [Code Of Conduct](https://github.com/himanshu1221/linkfree_clone/blob/master/CODE_OF_CONDUCT.md)
 
+## Add your profile
+Just simply copy this [JSON](https://github.com/himanshu1221/linkfree_clone/blob/master/public/data/himanshu1221.json) file edit this file according to  your links URL and raise a PR
+
+Dont foreget to add your data in data folder which is in public folder 
+
+
 ## Working Video
 This website is still under process but here is the quick tutorial of how u can check your profile 
 
