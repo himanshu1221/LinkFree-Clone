@@ -25,7 +25,10 @@ const Home = () => {
                         Make it easier for people to find, follow and subscribe.
                     </p>
                 </div>
-                <img src='https://linkfree.eddiehub.io/_next/image?url=%2Fmockup.png&w=640&q=75' alt='' />
+                <img
+                    src='https://linkfree.eddiehub.io/_next/image?url=%2Fmockup.png&w=640&q=75'
+                    alt=''
+                />
             </div>
 
             <div className='middle-2'>
@@ -38,7 +41,7 @@ const Home = () => {
                         </span>
                     </h2>
                     <div className='buttons'>
-                        <a href='https://github.com/himanshu1221/linkfree_clone#readme'>
+                        <a className='get-started' href='https://github.com/himanshu1221/linkfree_clone#readme'>
                             <div className='b-one'>
                                 Get Started
                             </div>

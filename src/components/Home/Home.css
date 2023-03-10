@@ -26,6 +26,11 @@ hr {
     opacity: 0.5;
 }
 
+img {
+    position: relative;
+    width: 73%;
+}
+
 .middle {
     margin: 4rem auto;
     background-color: #4338CA;
@@ -35,11 +40,22 @@ hr {
     padding: 2.5rem;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
 
     box-shadow: 10px 10px 25px #747474;
+}
+
+.get-started {
+    min-width: 115px;
+}
+
+.middle-text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 
 .middle-text h3 {
@@ -66,6 +82,7 @@ hr {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .mid-2-container h2 {
@@ -78,8 +95,18 @@ hr {
 
 .buttons {
     display: flex;
-    justify-content: space-between;
+    flex: 1;
+    justify-content: flex-end;
     align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .buttons {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .buttons a {
