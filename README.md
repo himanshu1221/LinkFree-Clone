@@ -37,7 +37,8 @@ Please go through this code of conduct before contributing
 1. Fork the project
 
 2. Clone the project to run on your local machine using the following command
-   git clone https://github.com/<your_github_username>/
+
+   git clone https://github.com/himanshu1221/linkfree_clone.git
 
 3. Install dependencies:
   - run npm install
