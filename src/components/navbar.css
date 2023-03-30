@@ -13,7 +13,9 @@ li {
 }
 
 form {
-  padding-top: 14px;
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
 }
 
 input[type="text"] {
@@ -41,14 +43,13 @@ input[type=text]:empty + .list {
 }
 
 button {
-  width: 5rem;
+  width: 2rem;
   padding: 2px;
   margin-left: 5px;
   border-radius: 5px;
   border-color: whitesmoke;
   cursor: pointer;
   color: gray;
-  background: rgb(0, 13, 33);
 }
 
 .parent_nav a {

@@ -8,10 +8,11 @@ export const Navbar = () => {
   const [searchResults, setSearchResults] = React.useState([]);
 
   const handleSearch = (searchTerm) => {
-    // Make an API call to search for the given term
-    fetch(`https://api.github.com/search/users?q=${searchTerm}`)
-      .then((response) => response.json())
-      .then((data) => setSearchResults(data.items));
+    window.open(
+      `https://linkfree-clone.vercel.app/${searchTerm}`,
+      "_blank",
+      "noreferrer"
+    );
   };
 
   const toggleShowBar = () => setVisible(!visible);
@@ -37,13 +38,6 @@ export const Navbar = () => {
           style={{ listStyle: "none", background: "#000d21" }}
         >
           <SearchBar onSearch={handleSearch} />
-          <ul className="list">
-            {searchResults.map((user) => (
-              <li key={user.id}>
-                {user.login} {user.name}
-              </li>
-            ))}
-          </ul>
           <a href="https://linkfree.eddiehub.io/events">
             <li>Events</li>
           </a>
@@ -60,9 +54,7 @@ export const Navbar = () => {
           style={{ listStyle: "none", background: "#000d21" }}
         >
           <hr></hr>
-          <a href="https://linkfree.eddiehub.io/search">
-            <li>Search</li>
-          </a>
+          <SearchBar onSearch={handleSearch} />
           <a href="https://linkfree.eddiehub.io/events">
             <li>Events</li>
           </a>
