@@ -1,3 +1,13 @@
+:root{
+  --mainBg: white;
+  --middleBg: #4338CA;
+  --bottomBg: #F9FAFB;
+  --textPrimary: #4F4FE5;
+  --middle2Text: black;
+  --filterImg: none;
+  --exampleBtn: black;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +20,14 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.darkmode{
+  --mainBg: #101011;
+  --middleBg: #171718;
+  --bottomBg: #1a1a1b;
+  --textPrimary: white;
+  --middle2Text: rgb(226, 226, 226);
+  --filterImg: brightness(90%);
+  --exampleBtn: whitesmoke;
 }

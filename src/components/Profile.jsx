@@ -14,10 +14,10 @@ function Profile({name , bio , avatar,total}) {
         >
           <Badge value={total} />
         </Avatar>
-        <h1 className="ml-5 mt-3">{name}</h1>
+        <h1 className="ml-5 mt-3" style={{color: "var(--exampleBtn)"}}>{name}</h1>
       </div>
       <div className="flex justify-content-center align-item-center">
-        <p>{bio}</p>
+        <p style={{color: "var(--exampleBtn)"}}>{bio}</p>
       </div>
     </>
   );

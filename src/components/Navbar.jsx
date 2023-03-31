@@ -6,6 +6,39 @@ export const Navbar = () => {
   const [visible, setVisible] = React.useState(false);
   const [widthScreen, setWidthScreen] = React.useState(window.innerWidth);
   const [searchResults, setSearchResults] = React.useState([]);
+  
+  let darkMode = localStorage.getItem('darkMode')
+
+  const enableDarkMode = () => {
+    //add the class darkmode to the body
+    document.body.classList.add('darkmode')
+
+    //update darkmode in the localstorage
+    localStorage.setItem('darkMode', 'enabled')
+  }
+
+  const disableDarkMode = () => {
+    //add the class darkmode to the body
+    document.body.classList.remove('darkmode')
+
+    //update darkmode in the localstorage
+    localStorage.setItem('darkMode', null)
+  }
+
+  if(darkMode === 'enabled'){
+    enableDarkMode();
+  }
+
+  const darkModeToggle = () => {
+    darkMode = localStorage.getItem('darkMode');
+
+    if(darkMode !== 'enabled'){
+      enableDarkMode();
+    }
+    else{
+      disableDarkMode();
+    }
+  }
 
   const handleSearch = (searchTerm) => {
     window.open(
@@ -31,11 +64,11 @@ export const Navbar = () => {
   }, [widthScreen]);
 
   return (
-    <ul className="parent_nav" style={{ background: "#000d21" }}>
+    <ul className="parent_nav" style={{ background: "#1a1a1b" }}>
       {!visible ? (
         <ul
           className="links"
-          style={{ listStyle: "none", background: "#000d21" }}
+          style={{ listStyle: "none", background: "#1a1a1b" }}
         >
           <SearchBar onSearch={handleSearch} />
           <a href="https://linkfree.eddiehub.io/events">
@@ -71,6 +104,8 @@ export const Navbar = () => {
           <span className="pi pi-bars" style={{ fontSize: "20px" }}></span>
         </li>
       </a>
+
+      <img src="https://cdn-icons-png.flaticon.com/128/2130/2130631.png" alt="mode" className="darkmodeBtn" onClick={darkModeToggle} />
     </ul>
   );
 };
