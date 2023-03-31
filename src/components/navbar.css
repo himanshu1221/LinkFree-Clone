@@ -1,73 +1,112 @@
-.parent_nav{
-    margin-top: 0px; 
-    position: relative;
-    display: flex;
-    align-items: baseline;
-    justify-content: flex-end;
+.parent_nav {
+  margin-top: 0px;
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
 }
 
-li{
-    margin: 10px 5px 10px 0px;
-    padding: 10px 16px ;
-    color: gray;
+li {
+  margin: 10px 5px 10px 0px;
+  padding: 10px 16px;
+  color: gray;
 }
 
-.parent_nav a{
-    text-decoration: none;
+form {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
 }
 
-.parent_nav li:hover{
-    cursor: pointer;
-    color: white;
+input[type="text"] {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+input[type=text]:empty + .list {
+    display: none;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+button {
+  width: 2rem;
+  padding: 2px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border-color: whitesmoke;
+  cursor: pointer;
+  color: gray;
+}
+
+.parent_nav a {
+  text-decoration: none;
+}
+
+.parent_nav li:hover {
+  cursor: pointer;
+  color: white;
 }
 
 .links {
-    display: none
+  display: none;
 }
 
 .links_view_mobile {
-    display: flex;
-    flex: 1;
-    padding: 0;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex: 1;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0 0 0 16px;
+}
+
+@media only screen and (min-width: 600px) {
+  .parent_nav {
+    margin-top: 0px;
+    position: relative;
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    justify-content: flex-start;
+  }
+
+  li {
+    margin: 10px 25px 10px 0px;
+    padding: 8px 12px;
+    color: gray;
+  }
+
+  .button li span {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    border: none;
-    padding: 0 0 0 16px;
+  }
+
+  .links_view_mobile {
+    display: none;
+  }
 }
-
-@media only screen and (min-width: 600px){
-    .parent_nav{
-        margin-top: 0px; 
-        position: relative;
-        display: flex;
-        align-items: baseline;
-        justify-content: flex-start;
-    }
-
-    li{
-        margin: 10px 25px 10px 0px;
-        padding: 8px 12px ;
-        color: gray;
-    }
-    
-    .button li span {
-        display: none
-    }
-
-    .links {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .links_view_mobile {
-        display: none
-    }
-}
-
