@@ -1,7 +1,3 @@
-.main-container{
-    background-color: var(--mainBg);
-}
-
 .top {
     display: flex;
     justify-content: space-between;
