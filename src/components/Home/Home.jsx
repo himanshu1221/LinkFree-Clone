@@ -27,7 +27,7 @@ const Home = () => {
                 </div>
                 <img
                     src='https://linkfree.eddiehub.io/_next/image?url=%2Fmockup.png&w=640&q=75'
-                    alt=''
+                    alt='' className='filerImg'
                 />
             </div>
 
@@ -53,7 +53,6 @@ const Home = () => {
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
     )

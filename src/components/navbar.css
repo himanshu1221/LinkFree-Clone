@@ -6,6 +6,10 @@
   justify-content: flex-end;
 }
 
+.nav-div{
+  display: flex;
+}
+
 li {
   margin: 10px 5px 10px 0px;
   padding: 10px 16px;
@@ -73,6 +77,18 @@ button {
   justify-content: center;
 }
 
+.darkmodeBtn{
+  width: 35px;
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.darkmodeBtn:hover{
+  box-shadow: 1px 1px 5px white, -1px -1px -5px white;
+}
+
 .button {
   display: flex;
   align-items: center;
@@ -81,7 +97,7 @@ button {
   padding: 0 0 0 16px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
   .parent_nav {
     margin-top: 0px;
     position: relative;
@@ -98,6 +114,11 @@ button {
 
   .button li span {
     display: none;
+  }
+
+  .darkmodeBtn{
+    left: auto;
+    right: 40px;
   }
 
   .links {
