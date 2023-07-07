@@ -1,23 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
+import 'primeicons/primeicons.css'
 
 function SearchBar(props) {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState('')
 
   const handleInputChange = (event) => {
-    setSearchTerm(event.target.value);
-  };
+    setSearchTerm(event.target.value)
+  }
 
   const handleFormSubmit = (event) => {
-    event.preventDefault();
-    props.onSearch(searchTerm);
-  };
+    event.preventDefault()
+    props.onSearch(searchTerm)
+  }
 
   return (
     <form onSubmit={handleFormSubmit}>
-        <input type="text" placeholder='Search by GitHub Username' value={searchTerm} onChange={handleInputChange} />
-        <button type="submit"><img src="https://img.icons8.com/ios-glyphs/30/null/search--v1.png"/></button>
+      <input
+        type='text'
+        placeholder='Search by GitHub Username'
+        value={searchTerm}
+        onChange={handleInputChange}
+      />
+      <button className='nav-submit-button' type='submit'>
+        <i className='pi pi-search'></i>
+      </button>
     </form>
-  );
+  )
 }
 
-export default SearchBar;
+export default SearchBar
